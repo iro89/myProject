@@ -1,0 +1,21 @@
+.wrapp{
+    max-width: 990px;
+    margin: 0 auto;
+}
+@media only screen and (max-width: 767px) {
+.header{
+    margin-bottom: 10px;
+    padding-top: 10px;
+    position: relative;
+    bottom: 60px;
+ 
+}
+.header .bannerx60{
+    visibility: hidden;
+    
+}
+}
+
+@media only screen and (max-width: 375px) {
+
+}

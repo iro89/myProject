@@ -1,0 +1,13 @@
+@import url("reset.css");
+@import url("bootstrap.css");
+@import url("general.css");
+@import url("style.css");
+@import url("owl.carousel.css");
+/*layout*/
+@import url("layout.css"); 
+/* header */
+@import url("header.css");
+@import url("carousel.css");
+/*footer*/
+
+@import url("footer.css");

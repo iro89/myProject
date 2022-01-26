@@ -1,0 +1,90 @@
+#logo a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+#logo span{
+    display: block;
+
+}
+#logo span:first-child{
+font-size: 36px;
+padding-top: 20px;
+color: #525f6b;
+margin-bottom: 16px;
+line-height: 27px;
+}
+
+#logo span:nth-child(2){
+    font-size: 12px;
+    color: #525f6b;
+    line-height: 10px;
+}
+.header{
+    padding-top: 45px;
+    margin-bottom: 50px;
+}
+
+.bannerx60{
+    float: right;
+    padding-top: 50px;
+    margin-top: 10px;
+    width: 468px ;
+    height: 60px;
+    background-color:#eaeaea ;
+    
+    
+}
+.bannerx60 p{
+    position: relative;
+    left: 210px;
+    bottom: 30px;
+color: blue;
+}
+
+.header .row:first-child{
+    margin-bottom: 45px;
+}
+
+.header nav{
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid #dbdbdb;
+    height: 50px;
+    background: rgba(238,238,238,1);
+
+}
+.header nav ul:after{
+ content: '';
+ clear: both;
+ display: block;
+}
+
+.header nav ul{
+    height: 100%;
+}
+
+.header nav ul li{
+    float: left;
+    height: 100%;
+    display: table;
+}
+.header nav ul li a{
+    color: #666666;
+    font-size: 12px;
+    text-decoration: none;
+    display: table-cell;
+    vertical-align: middle;
+    text-transform: uppercase;
+    padding: 0 16px;
+    transition: 1s;
+}
+.header nav ul li:first-child{
+    background-color: #ff4653;
+}
+.header nav ul li:nth-child(3){
+    padding-left: 130px;
+}.header nav ul li a:hover{
+    background-color: #ff4653;
+    color: white;
+}

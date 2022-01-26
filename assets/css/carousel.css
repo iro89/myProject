@@ -1,0 +1,82 @@
+
+
+.item{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #c2c2c2;
+}
+.main_carousel .slider_wrapper .item {
+  height: 465px;
+  background: url("/assets/img/New\ Project.jpg") no-repeat center;
+  background-size: cover;
+  position: relative;
+}
+.main_carousel .slider_wrapper .item .caption {
+  position: absolute;
+  bottom: 0;
+  left: 0%;
+  width: 100%;
+  height: 100px;
+  background: rgb(0, 0, 0, 0.7);
+  padding: 15px 20px;
+}
+.main_carousel .slider_wrapper .item .caption h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  line-height: 14px;
+}
+.main_carousel .slider_wrapper .item .caption p{
+    font-size: 13px;
+    word-spacing: 4px;
+}
+/* second carousel */
+.second_carousel{
+    height: 406px;
+padding-top: 64px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.second_carousel .intro h2{
+    font-size: 36px;
+    color: #535f6b;
+    
+}
+.second_carousel .intro p{
+    color: #666666;
+    margin-top: 10px;
+    font-size: 18px; 
+}
+.intro{
+    height: 100%;  
+}
+.right{
+    float: left;
+}
+
+.right .item{
+    height:275px;
+    width: 225px;
+    background-color:#333333;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 40px;
+    position: relative;
+}
+.right .item::after{
+content: '';
+display: block;
+width: 100%;
+height:10px;
+position: absolute;
+background: #333;
+bottom: -30px;
+left: 0;
+transition: 0.3s;
+}
+.right .item:hover:after{
+    background:#ff4653 ;
+}
+.right .item span{
+    position: absolute;
+    top: 130px;
+    left: 10px;
+    right: 10px;
+}
